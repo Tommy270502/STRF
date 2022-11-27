@@ -1884,7 +1884,7 @@
       (reference "J2") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/e3a54d70-49a5-419a-b99e-e9f481ea3702/1b6344d2-3a15-4d8f-8ee0-68d07dbb8896"
-      (reference "J3") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
+      (reference "J3") (unit 1) (value "Conn_Coaxial") (footprint "SMA connector edgemount footprint:TE_5449692-1")
     )
     (path "/e3a54d70-49a5-419a-b99e-e9f481ea3702/499f85c6-04f3-469c-8a2a-d398709f27ce"
       (reference "L1") (unit 1) (value "8.2nH") (footprint "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
