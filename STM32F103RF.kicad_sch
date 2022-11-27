@@ -1618,14 +1618,14 @@
     (pin "2" (uuid a6618056-eeb6-4dee-9e25-39b72386016c))
   )
 
-  (sheet (at 25.4 215.9) (size 12.7 12.7) (fields_autoplaced)
+  (sheet (at 0 215.9) (size 12.7 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 3b596506-65bf-4a2a-90c0-c8e397dd346e)
-    (property "Sheet name" "Microcontroller" (id 0) (at 25.4 215.1884 0)
+    (property "Sheet name" "Microcontroller" (id 0) (at 0 215.1884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 25.4 229.1846 0)
+    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 0 229.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -1642,21 +1642,8 @@
     )
   )
 
-  (sheet (at 0 215.9) (size 12.7 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid e695916d-aeac-47da-bd39-0c77c38bea8d)
-    (property "Sheet name" "Power" (id 0) (at 0 215.1884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 0 229.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
-    (path "/e695916d-aeac-47da-bd39-0c77c38bea8d" (page "2"))
     (path "/3b596506-65bf-4a2a-90c0-c8e397dd346e" (page "3"))
     (path "/e3a54d70-49a5-419a-b99e-e9f481ea3702" (page "4"))
   )
@@ -1739,9 +1726,6 @@
     )
     (path "/9cbf4c9b-9ccd-441d-99b1-2728b4d39b0f"
       (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/3b596506-65bf-4a2a-90c0-c8e397dd346e/7dc61b8f-c79a-4b32-a44c-9031797cd123"
-      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
     (path "/6f45cbc5-3083-4691-b395-c12aececd83d"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
@@ -1943,9 +1927,6 @@
     )
     (path "/e3a54d70-49a5-419a-b99e-e9f481ea3702/45411030-5976-4d38-98cd-4b3d3ca9e114"
       (reference "R11") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/3b596506-65bf-4a2a-90c0-c8e397dd346e/ae6018fa-0784-4a92-8e2f-b97f4144db6c"
-      (reference "RESET1") (unit 1) (value "RST") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/c6b070fb-230d-42f9-b182-7a55fca635e2"
       (reference "U1") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
