@@ -693,7 +693,6 @@
     )
   )
 
-
   (junction (at 121.92 118.11) (diameter 0) (color 0 0 0 0)
     (uuid 16987a5e-c308-4b69-b74d-8c8a73e68d71)
   )
@@ -1532,10 +1531,10 @@
     (property "Reference" "J2" (id 0) (at 224.79 107.9499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 224.79 110.4899 0)
+    (property "Value" "Conn_01x04" (id 1) (at 224.79 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 222.25 107.95 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 222.25 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 222.25 107.95 0)
