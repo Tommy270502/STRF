@@ -2599,6 +2599,11 @@
       (net 2 "3.3V") (pintype "power_in") (tstamp 77fbec0c-38d6-4731-ae1c-d577d3c1cc17))
     (pad "6" smd roundrect locked (at 1.255 -0.95) (size 1.21 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07)
       (net 35 "USB_D+") (pintype "bidirectional") (tstamp 44153d42-3cdf-4169-934c-e4f736c32127))
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/USBLC6-2SC6.STEP"
+      (offset (xyz 0 0 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
